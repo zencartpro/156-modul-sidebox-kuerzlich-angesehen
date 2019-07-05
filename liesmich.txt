@@ -1,0 +1,41 @@
+Sidebox: Kürzlich angesehene Artikel
+
+geeignet für Zen-Cart 1.5.6 und 1.5.5 deutsch
+
+Dem Besucher werden in dieser Sidebox seine zuletzt angesehenen Artikel angezeigt.
+Wieviele Artikel angezeigt werden sollen, kann unter Konfiguration > Maximale Werte eingestellt werden
+
+
+INSTALLATION
+
+1) 
+Im Ordner NEUEDATEIEN alle Ordner namens DEINTEMPLATE auf den Namen des im Shop aktiven Templates umbenennen (also z.B. responsive_classic)
+
+2) 
+Dann alle Dateien/Ordner aus dem Ordner NEUEDATEIEN in der vorgegebenen Struktur ins Zen Cart Verzeichnis hochladen. 
+Dabei werden keinerlei bestehende Dateien überschrieben
+
+3) 
+Im Ordner SQL die install.sql mit einem Texteditor öffnen und den Inhalt kopieren. 
+Einfügen unter Tools > SQL Patches installieren und absenden. 
+Dadurch ist nun unter Konfiguration > Maximale Werte ein neuer Menüpunkt vorhanden.
+Hier einstellen, wieviele Artikel in der Sidebox maximal angezeigt werden sollen.
+
+4)
+Box unter Tools > Boxlayout aktivieren
+
+
+Hinweis für User des Templates responsive_classic:
+Um die Sidebox auf mobilen Geräten zu deaktivieren, so vorgehen wie hier beschrieben:
+https://www.zen-cart-pro.at/forum/threads/12026-Neu-hinzugef%C3%BCgte-Sideboxen-in-mobiler-Ansicht-ausblenden
+
+
+
+DEINSTALLATION
+
+1)
+Alle von diesem Modul angelegten neuen Dateien vom Server löschen
+
+2)
+Im Ordner SQL die uninstall.sql mit einem Texteditor öffnen und den Inhalt kopieren. 
+Einfügen unter Tools > SQL Patches installieren und absenden. 
