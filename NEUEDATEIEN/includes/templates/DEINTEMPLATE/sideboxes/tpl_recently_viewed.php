@@ -3,10 +3,10 @@
  * Side Box Template
  *
  * @package templateSystem
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart-pro.at/license/2_0.txt GNU Public License V2.0
- * @version $Id: tpl_recently_viewed.php 2018-10-25 18:56:41Z webchills $
+ * @version $Id: tpl_recently_viewed.php 2020-02-10 09:56:41Z webchills $
  */
   $content = '';
   $content .= '<div id="' . str_replace('_', '-', $box_id . 'Content') . '" class="sideBoxContent">' . "\n";
